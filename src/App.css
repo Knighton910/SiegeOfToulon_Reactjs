@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Kaushan+Script|Pridi:300');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Merienda|Permanent+Marker|Source+Code+Pro|Uncial+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Fredericka+the+Great|Marcellus+SC|Marck+Script|Michroma');
+
+body {
+  margin: 0 auto;
+  border: #e9db82 solid 5px;
+  font-family: 'Pridi', serif;
+  font-size: 1.2em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.8em;
+  font-family: 'Michroma', sans-serif;
+  color: #374750
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Arthor Styles */
+.cannonBall {
+  height: 300px;
+}
+
+.blast {
+  margin-bottom: -170px;
+  margin-left: 700px;
+}
+
+.D1set {
+  margin-bottom: 80px;
+}
+
+.siege {
+  font-size: 2.2em;
+  color: #e9db82;
+  background-color: #374750;
+  margin-left: 390px;
+  margin-right: 390px;
+  font-family: 'Libre Baskerville', serif;
+  border: #e9db82 solid 8px;
+}
+
+#context-set1 {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+#context1, 
+#context2 {
+  text-align: center;
+  border: #e9db82 solid 2px;
+  margin-bottom: 24px;
+}
+
+#touch {
+  color: steelblue;
+}
+
+#repName {
+  margin-top: -15px;
+  margin-left: 222px;
+  font-size: 0.8em;
+}
+#rep {
+  font-size: 1.0em;
+  margin-top: 140px;
+}
+
+img.Ene1, 
+img.Ene2,
+img.Ene3,
+img.Ene4,
+img.Ene5 {
+  height: 125px;
+  margin-right: 15px;
+}
+
+div.enemies {
+  display: flex;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+img.Rev1, 
+img.Rev2,
+img.Rev3 {
+  height: 16.0em;
+  margin-right: 15px;
+  border: solid 2px #e9db82;
+}
+
+div.revolunaries {
+  display: flex;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+/*rev1,*/
+/*rev2,*/
