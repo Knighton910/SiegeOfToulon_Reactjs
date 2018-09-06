@@ -40,7 +40,8 @@ body {
   to { transform: rotate(360deg); }
 }
 
-/* Arthor Styles */
+/*TODO: fix name of Arthor Styles (done)*/
+/* Author Styles  */
 .cannonBall {
   height: 300px;
 }
@@ -62,18 +63,6 @@ body {
   margin-right: 390px;
   font-family: 'Libre Baskerville', serif;
   border: #e9db82 solid 8px;
-}
-
-#context-set1 {
-  margin-left: 110px;
-  margin-right: 110px;
-}
-
-#context1, 
-#context2 {
-  text-align: center;
-  border: #e9db82 solid 2px;
-  margin-bottom: 24px;
 }
 
 #touch {
@@ -119,5 +108,29 @@ div.revolunaries {
   margin-bottom: 100px;
 }
 
+
 /*rev1,*/
 /*rev2,*/
+
+
+/*  Layout styles ------------------ */
+#context1,
+#context2,
+#context3,
+#context4,
+#context5,
+#context6 {
+  text-align: center;
+  border: #e9db82 solid 2px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#context-set1,
+#context-set2,
+#context-set3 {
+  margin-left: 110px;
+  margin-right: 110px;
+}
