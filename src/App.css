@@ -134,3 +134,23 @@ div.revolunaries {
   margin-left: 110px;
   margin-right: 110px;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #374750;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e9db82;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aae2f5;
+}
